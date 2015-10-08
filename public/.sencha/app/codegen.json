@@ -1,0 +1,301 @@
+{
+  "sources": {
+    "{controllerFileName}.js.tpl.merge": {
+      "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188": "eJxzrSjRS0lNy8xL1VCvTs7PKynKz8lJLfJLzE0tLkhMTq3VQxOtVddRqOZSAILUipLUvBQrBXVXoBmJBQV6znCF6ly1mtZcACwSIF0\u003d"
+    },
+    "build.properties.merge": {
+      "d4613dc19be3ddb60e7ff5716e28c8b15d954f3a": "eJytUstOw0AMvPMVI/WGoB+AxAFx4sBD0B9ws05idbOOdp2E/j1OH6pEEKfuzR57POP1Co/XfDcrbFopqCUy+qyjBC6gBB05Zw/QqyRDrRmBaxqiYaQstI1e5xlJHCAJ1nJhZ4s6cXYm0Sy2P/CWh5uVI8A9+NvWPqXnbMLllLxdn5jLEvsTmUXrRSHhBO6xpeJyNGE7SAxrTqNkTR27A0nFmAIoBFzIYOpsmhhaHz2glab9x4L3hqEy0bRUa1xMUrMEEpmMvMz3VO2o4d/uXl4/3j83T28bL/niVLWE5y5gkhjRcW4Yex0yPJ8a9zCJtRAr0CkhDNklYOibTP6X6+OyaFRx32q+CqEzS6WpjlJ55xHvaDf3RnLwDmVi7uf4POewKzufy8x83Vv8AQy16fs\u003d"
+    },
+    "native.properties.merge": {
+      "2c8c063f9588eecff09624782d7369a8a000d61c": "eJytkEsOwjAMRPecYkT3vQF3YMEFguJSi2BXjgni9rgfFQ5AdrEm743T4fTPc+hwGbli4EKYTBtnqkgCbWQWF0zK4hjUkGlIz+JoyThdS+RiwkIZLAiQJOdG/RarfeAmMmeqfUioLoJtgmQElfIGPyY1D8hrJMH1ySWz3AI3K30kHFfuESSNTeVB4v2hi8T5i/tp4vs+nu6zk9XY38tGK/+nWQx87hK0pU3RlAMzu3fv8qaG8s9f/wFV3ZB9"
+    },
+    "package.properties.merge": {
+      "c6c1fb2fb1dda28480ad0f6e5caffc9b97d196ae": "eJytkUFygzAMRfc5hSZsOxygM11223aRCwgsQBNH8tiCTG5fGWjDAcLOsnjvS27g45XfqYHLxAUGjgQp68KBCqCALpSzHyApi8GgGQINOEeDBTNjF73PKywUgAUclLC/4kjt3lda5yXKxlRat1BZDXsFMBOoxAfwLWk2p9wnEuhmjoFldF512kRw3sFnIFk4q9xIrD013vLz5B2y2P9EhtcqZc1sj3WmTXCI5gWrYZy2xomKwTFV/hSvP5XN+fV9+Xzftjb7SDoc+jClWJmmIGi80N9SwnbVe1HlDUTdWfNvt1togpGEMkYoLP1K7tVfIHKXfeVU/S9+/V9rlbyW"
+    },
+    "production.properties.merge": {
+      "cbdf9712e9b5d37cecb4d0530ba1fccd0ed004a3": "eJytkUEOwjAMBO+8YkXv/QF/4MAHAnGpRbArxy3i97gFQbk3t6ycmbXS4LDl2TU49VzRcSEMphNnqkgCncgsLhiUxdGpIVOXxuKYknE6l5iLhIUyWBCgeJ7Hi7NK+xmtbWQDmTPVNkRUF8knQTKCSnmC74OaB+jRk+A8csks10DOWu8J+x97D5KJTeVO4u2uianjD7lq5N+9PN1mL6uxP5fN3o5Vuwh87hO0pVHRlAMz+//cy7sa2o2/4QV6LJW9"
+    },
+    "sencha.cfg.tpl.merge": {
+      "defeb525f7e472e622379aecfa6ccb298b5a68fe": "eJytUcFOwzAMve8rLMEBJOh2Q0LqBe5oB45cstRtPdIkitN1Y9q/Y7esmwRHemhsP/vlPcfEWHjTYXnU/2lhJK+ThENIn+VxDt9m1DrDHE1uy9uPfrV6etFiRem0lODhj1qx5XFw05OrtHoeVF5hsniBTssrgknR4gbeW2KIKURM+QDWeNggdKGimrCCHMC2xjcIuUUgH/sMxlcQ+qxhNILU5BCEqWcZID922tBFLcvZSX8Bd9g8C1jhvjAc9w8/8ZYjFEUB96MLpZs2NqFt7pxqvNw9X3jp1+zXuq7ymfQ0UV3b5YhWjTKYSSowRpNMFieOOEOoQZ+DBfXZkCffCElCDn2yMqb7CfGgp4ocdw2iAG0O6TCKPDcXI1EpIsp//UTPa885dLCebKmdR1g7eXywI0JfJlPwLE/rwjDtwJFHlW12gSroMDUoTGKzdmQzw0C5BY8DJthhYh1ffAM5HvR7"
+    },
+    "testing.properties.merge": {
+      "360e715956c81757e53736789fe20be045acb544": "eJytkMENwjAMRe+d4oveuwE7cGCBoLjUItiVY4q6PW6pKAM0t1g/732nxfnI07S4DlzRcyGMphNnqkgCncgsLhiVxdGrIVOfXsUxJeN0K5GLCQtlsCBATtVZ7t2Wq13wRjJnql1YqK6GbYJkBJUyg5+jmgflPZDg9uKSgxK8xekD4bSBTyCZ2FSeJN41bUQuO++vi/828vRYpKzGPq87fQV/1WLgS5mgrXWKphyYRb6L10c1nAf//gdqIpHi"
+    },
+    "app.js.tpl.merge": {
+      "f99fcd4b73ed427a107b320ff7aa6a7008fa3faa": "eJxVks1O6zAQhfd5iqNuCqhK973LwoLFvSxASAjdhRtPEwvHjvxDqBDvznhCSJtNHM/MmTPfZHtTgZ+nzkQcjSXwuyVHQSXSUE4jD1rOhxMeyTWdwr7XNV58RqMcSJuE9Fuuoug5Is01Rx9w8jlADYM1jUrGuw0OuVRQJCmOGI216NQ7IXkcCD2FVhqK1NIUY0cO3G6gwMp9ROM1zXZZGknFt4iYm46N/AZcy35GEeu5wMYNF7oUvLUUItjju6ExyrTSImTnStUqTr3ZPWNog9K0qisRutekrD2Bw66lWJwvEEafrS6TWNObmWPvY+JIeFvC2jsSNePgmUjAYFXDalfzCPvF53WN++M5DabvfJpoCWWRmg2VlgXusswCa1PwCe8heJ0bXhhWkwIjOfKO0ooHUakIip4kl3WWEQNFb3lPvXK5jF9XN9uquvtI9dmCrz6nX0D1tMP6kyP/+Pi13kzkhPUOr/JRnvUz3ww+pLVc/f/JO1vRRfZfZdxlZkyejZ0nbbd4erh92EFp/RMG46WLMpWT3wdiNrOBHVLIVH1d/6m+AZp4/0M\u003d"
+    },
+    "app.json.tpl.merge": {
+      "5c35fa135e5c429faf9348c096b567a3079ad83b": "eJyr5lIAAqW8xNxUJSsFpWoQo1ZJhwsiXJRaWJpZlFoMlIoGi8TCZDJTwMpL8zILS1M9U2qVuGoByK4TZA\u003d\u003d"
+    },
+    "index.html.tpl.merge": {
+      "fd1dec7c602cd06662f81de335ee0d73f58dd72b": "eJx9UbtuwzAM3PMVinZFawfZSx/o0EcGd+ioyAzkRooEkm0TGPn32lYb1ChSLgR5vDsSNMub5+vmdX0r7pvHh3phPMcwJrBtvRBDmAhshfMWCbiSL82dupLfEHccoO73NsLJ6FIVJHT7nUAIlSQ+BiAPwFJ4hG0lESi9owPSPXuI8DTStc155Yh+pJdKCXNQLsXcDapCqQL8BjcpMTHaPIenEXLYZRaErpL9FgeLz4S7tWV/0nBg1cLH6m1wM7pM/kM/21wglHX0xX1mYuOZf2XOErN7jS5vMJvUHgfGlMbu9KMvVOKCWg\u003d\u003d"
+    },
+    "config.rb.tpl.merge": {
+      "4fb223ba4226f4a9404f4d62e5bf5136751bc46c": "eJyNVVtr2zAUfq5/xVkySAKZu7dBIIyta8egjLFubwOjyMeJWlkyuiQNbf/7jqzElyQNfbAlnet3Ljoawnd04FYIuTDInTZbOrFAEha4VoVYesOc0AoKIRHwUVhnQaiEFGAON0RMaatYieMsu/lxe51lk+Q9PrqsYm61F7nXQo1HaTqaQu//VBjS3Gjz8IukX0aTJBnCrWZ5DYqs3FtoRIB5p0tCw5mU2zSRQa413zgluwat9oajDU7IVEk7giVKtkSbdbDXmoNIH9Ter3RZMXsQvU0s0fYhkX7C22PHUJoOptD7N0jC4amG8pPieSFn2rvKu8y6LWV2DjNOnkncYp6gWgujVYnKBU5ldO55ABIQfhOWLUhlw4wSamkh94ZWsBF2WQkZS8YW5AJKYW1gB7QWnIYYLRnKPbZnWGAtJRnHnCoMCy9kDhFk2x9TUNpBjAlCVYJSw6W2qLFlDbY5OOMxSUqKgDB/qao7gnn96FDZOrEAO9YRveHceMVdQ2zIf52QexLAEH6j80ZZYLBg/GFptFf5hzo4oARWaNwWCm2IbyvkohAhzhh7IIeOq+vTmMyxiJSsFhvX+ynEHtsIt6LkZN5ICrJg0hLLYEj9GveUSWMLYNctYUnXTHrs8GrLIVdhPeL2XY07x5TLUPQ5NWFwdxVOE/jc05h1T0e2O9s9+H1fUwdfxvxcDk5riKJR6lB79BZhqO9sdseNqBytLvRsT+sYQWPkEHVXeN9iXR5KexJDmyV4fj7B/0OGavbrvk4GTP7OwDsTBqo8OWPmsJ+S1zTfUpRQyuOZ1cv5FDo9PjlEdnFxMYxPg0LM61mi12iMyDE+IlgwLx15qiQstsBXyOv5EK7X7qax+N50RnE0KzWvh9Yx5BNztqM9eUuMHTsnQjuTyHedq9NzFK/igJbxaPjPf/z46Wvrm96xwbmq7pSP9QZvgXXqHqUKN2My28bVqu93cQ3/8CWdqdta605aobj0+YmRTeIH50ZtNotDOXj4D2dxjPI\u003d"
+    }
+  },
+  "targets": {
+    "app/controller/Main.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "Taas",
+        "controllerName": "Main",
+        "controllerFileName": "Main",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all"
+      }
+    },
+    ".sencha/app/build.properties": {
+      "source": "build.properties.merge",
+      "version": "d4613dc19be3ddb60e7ff5716e28c8b15d954f3a",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    ".sencha/app/native.properties": {
+      "source": "native.properties.merge",
+      "version": "2c8c063f9588eecff09624782d7369a8a000d61c",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    ".sencha/app/package.properties": {
+      "source": "package.properties.merge",
+      "version": "c6c1fb2fb1dda28480ad0f6e5caffc9b97d196ae",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    ".sencha/app/production.properties": {
+      "source": "production.properties.merge",
+      "version": "cbdf9712e9b5d37cecb4d0530ba1fccd0ed004a3",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    ".sencha/app/sencha.cfg": {
+      "source": "sencha.cfg.tpl.merge",
+      "version": "defeb525f7e472e622379aecfa6ccb298b5a68fe",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    ".sencha/app/testing.properties": {
+      "source": "testing.properties.merge",
+      "version": "360e715956c81757e53736789fe20be045acb544",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    "app.js": {
+      "source": "app.js.tpl.merge",
+      "version": "f99fcd4b73ed427a107b320ff7aa6a7008fa3faa",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    "app.json": {
+      "source": "app.json.tpl.merge",
+      "version": "5c35fa135e5c429faf9348c096b567a3079ad83b",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    "index.html": {
+      "source": "index.html.tpl.merge",
+      "version": "fd1dec7c602cd06662f81de335ee0d73f58dd72b",
+      "parameters": {
+        "viewNamespace": "Taas.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "Taas",
+        "modelNamespace": "Taas.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "Taas",
+        "controllerNamespace": "Taas.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    },
+    "packages/default/sass/config.rb": {
+      "source": "config.rb.tpl.merge",
+      "version": "4fb223ba4226f4a9404f4d62e5bf5136751bc46c",
+      "parameters": {
+        "viewNamespace": "SysTech.view",
+        "frameworkName": "ext",
+        "frameworkPath": "ext",
+        "senchadir": ".sencha",
+        "controllerFileName": "Main",
+        "appModels": "",
+        "viewFileName": "Main",
+        "appControllers": "",
+        "appViews": "",
+        "uniqueId": "86c26655-9c8c-44ab-a933-cddcf6fc3b14",
+        "appName": "SysTech",
+        "modelNamespace": "SysTech.model",
+        "controllerName": "Main",
+        "viewName": "Main",
+        "themeName": "default",
+        "name": "SysTech",
+        "controllerNamespace": "SysTech.controller",
+        "library": "all",
+        "appStores": ""
+      }
+    }
+  }
+}

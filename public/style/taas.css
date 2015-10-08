@@ -1,0 +1,133 @@
+.lbl {background-color:#DFE8F6;padding-left:2px !important;}
+.fabold {font-family:arial;font-weight:bold;}
+.accHeading {font-weight: bold; color: blue;}
+.arial {font-family:arial;line-height:1.8em !important;}
+.nav-list {padding: 0 0px 0 0px;}
+.nav-list-item {
+    margin: 2px;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.nav-list-item img{
+  margin-right: 4px;
+  padding-top: 4px;
+}
+
+.nav-list .x-item-selected {
+    font-weight: bold; 
+    color: #15428B;
+    background-color: #DFE8F6;
+    border: 1px dotted #A3BAE9;
+}
+
+.nav-list-item-hover {
+    background-color: #eee;
+    color:red;
+} 
+
+.nav-add {
+    background-image: url(../images/add.png) !important;
+}
+
+.hr-icon {
+    background-image: url(../images/group.png.png) !important;
+}
+.nav-settings {
+    background-image: url(../images/bullet_wrench.png) !important;
+}
+
+.nav-remove {
+    background-image: url(../images/cross.png) !important;
+}
+.nav-login {
+    background-image: url(../images/nav_menu.png) !important;
+}
+
+.search {
+    background-image: url(../images/search.png) !important;
+}
+.client-services {
+    background-image: url(../images/client_services.jpg) !important;
+}
+
+.add-user {
+    background-image: url(../images/user_add.png) !important;
+}
+
+.hr-report {
+    background-image: url(../images/report.png) !important;
+}
+/** Common **/
+.search {background-image: url(../images/search.png) !important;}
+.save {background-image: url(../images/save.png) !important;}
+.reset {background-image: url(../images/reset.png) !important;}
+.attachment {background-image: url(../images/attachment.png) !important;}
+.course {background-image: url(../images/course.png) !important;}
+.info {background-image: url(../images/information.png) !important;}
+.user {background-image: url(../images/user.png) !important;}
+.thumb_up {background-image: url(../images/thumb_up.png) !important;}
+.tick {background-image: url(../images/tick.png) !important;}
+.history {background-image: url(../images/drive_disk.png) !important;}
+.summary {background-image: url(../images/folder_page_white.png) !important;}
+.payroll {background-image: url(../images/money.png) !important;}
+.edit_user {background-image: url(../images/user_edit.png) !important;}
+
+/** HRMS **/
+.hr-add-user {background-image: url(../images/hrms/user_add.png) !important;}
+.hr-user-list {background-image: url(../images/hrms/users.png) !important;}
+.hr-create-role {background-image: url(../images/hrms/group_edit.png) !important;}
+.hr-assign-role {background-image: url(../images/hrms/assign_roles.png) !important;}
+.hr-leaves {background-image: url(../images/hrms/leaves.png) !important;}
+.hr-training {background-image: url(../images/book_open.png) !important;}
+
+
+.heading{ color: #000; font-size: 20px; font-family:Verdana; background: #fff; margin: 0px 0px 5px; padding: 3px 0 3px 10px; border-left:4px solid #FF0000; } 
+.heading:hover { background:#F6CECE; } 
+
+.cust .x-tab-bar-top .x-tab-bar-body {
+    border-width: 0px 0px 0 !important;
+    height: 21px;
+    padding: 2px 0 2px;
+}
+
+/*
+.x-tab-bar-top .x-tab-bar-body {
+    border-width: 0px 0px 0 !important;
+    height: 22px;
+    padding: 2px 0 2px;
+}
+
+.x-border-box .x-tab-bar-top .x-tab-bar-body {
+    height: 45px !important;
+}
+
+.x-tab-bar-top .x-tab-bar-strip {
+    top: 42px!important; 
+}
+
+.x-border-box .x-tab-default-top {
+    height: 41px !important;
+}
+.x-tab-bar-top .x-tab-bar-body {
+    border-width: 1px 1px 0;
+    height: 20px;
+    padding: 1px 0 3px;
+}
+
+/*
+.x-tab-icon {
+    background-position: 0 10px;
+    background-repeat: no-repeat;
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    right: auto;
+    top: 0;
+    width: 30px;
+}
+*/
+

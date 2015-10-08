@@ -1,0 +1,143 @@
+Ext.onReady(function () {
+/* 
+ Ext.define('Image', {
+    extend: 'Ext.data.Model',
+    fields: [
+        { name:'src', type:'string' },
+        { name:'caption', type:'string' }
+    ]
+  });
+  
+  Ext.create('Ext.data.Store', {
+    id:'imagesStore',
+    model: 'Image',
+    data: [
+        { src:'images/server_software.png', caption:'Drawing & Charts' },
+        { src:'images/icon_module16.png', caption:'Advanced Data' },
+        { src:'images/viewmag.png', caption:'Overhauled Theme' },
+        { src:'images/server_software.png', caption:'Performance Tuned' }
+    ]
+  });
+  
+ 
+
+  var dv = Ext.create('Ext.view.View', {
+      store: Ext.data.StoreManager.lookup('imagesStore'),
+    //  tpl: imageTpl,
+      cls: 'feed-list',
+   //   width: 200,
+      trackOver: true,
+      cls: 'feed-list',
+      itemSelector: '.feed-list-item',
+      overItemCls: 'feed-list-item-hover',
+      tpl: '<tpl for="."><div class="feed-list-item"><img src="{src}" />{caption}</div></tpl>',
+  //    itemSelector: 'div.thumb-wrap',
+      emptyText: 'No images available',
+      listeners: {
+             //   scope: this,
+            //    contextmenu: this.onContextMenu,
+                select: function(){
+       console.log('selection changes...');
+    }
+            },
+      selModel: {
+                mode: 'SINGLE',
+                listeners: {
+                    scope: this,
+                    selectionchange: this.onSelectionChange
+                }
+            },
+            
+            onSelectionChange: function(){
+       console.log('selection changes...');
+    },
+    
+    onContextMenu: function(view, index, el, event){
+       
+       console.log('onContextMenu changes...');
+    },
+    onMenuSelect : function() {
+     console.log('onMenuSelect....');
+    }
+  });
+*/
+  Ext.define('MenuPanel', {
+  extend: 'Ext.panel.Panel',
+    animCollapse: true,
+    layout: 'fit',
+    title: 'Feeds',
+    width: 300,
+    initComponent: function(){
+    
+     Ext.define('Image', {
+      extend: 'Ext.data.Model',
+      fields: [
+          { name:'src', type:'string' },
+          { name:'caption', type:'string' }
+      ]
+    });
+    
+    Ext.create('Ext.data.Store', {
+      id:'imagesStore',
+      model: 'Image',
+      data: [
+          { src:'images/server_software.png', caption:'Drawing & Charts' },
+          { src:'images/icon_module16.png', caption:'Advanced Data' },
+          { src:'images/viewmag.png', caption:'Overhauled Theme' },
+          { src:'images/server_software.png', caption:'Performance Tuned' }
+      ]
+    });
+  
+        
+        Ext.apply(this, {
+            items: this.createView(),
+            dockedItems: this.createToolbar()
+        });
+        this.callParent(arguments);
+    },
+    
+    createActions: function(){
+        this.addAction = Ext.create('Ext.Action', {
+            scope: this,
+            handler: this.onAddFeedClick,
+            text: 'Add feed',
+            iconCls: 'feed-add'
+        });
+
+        this.removeAction = Ext.create('Ext.Action', {
+            itemId: 'remove',
+            scope: this,
+            handler: this.onRemoveFeedClick,
+            text: 'Remove feed',
+            iconCls: 'feed-remove'
+        });
+    },
+
+    createToolbar: function(){
+        this.createActions();
+        this.toolbar = Ext.create('widget.toolbar', {
+            items: [this.addAction, this.removeAction]
+        });
+        return this.toolbar;
+    },
+    createView: function(){
+        this.view = Ext.create('widget.dataview', {
+            store: Ext.data.StoreManager.lookup('imagesStore'),
+            listeners: {
+                select: function(){
+                   console.log('selection changes...');
+                }
+            },
+            trackOver: true,
+            cls: 'feed-list',
+            itemSelector: '.feed-list-item',
+            overItemCls: 'feed-list-item-hover',
+            tpl: '<tpl for="."><div class="feed-list-item"><img src="{src}" />{caption}</div></tpl>'
+        });
+        return this.view;
+    }//,
+ //   items: [dv],
+     // renderTo: 'output'
+  });
+  Ext.create('MenuPanel', { renderTo: 'output'});
+});
